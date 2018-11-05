@@ -1,0 +1,6 @@
+header, div, ul, .fixed-head, .top-wrap, .demo-reel, .drawings > ul >li  {
+    display: flex;
+}
+header, .fixed-head, .top-wrap, .drawings > ul >li{
+    justify-content: center;
+}

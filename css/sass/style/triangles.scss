@@ -1,0 +1,35 @@
+
+/*----------header's triangles----------*/
+
+    .head-tri{
+        width: 0;
+        height: 0;
+        border: 0 solid transparent;
+        border-top-width: 0px;
+    }
+
+    .left1, .right1{
+        border-bottom-width: 34px;
+    }
+
+    .left1{
+        border-right: 34px solid slategrey;     
+    }
+                
+    .right1{
+        border-left: 34px solid slategrey;
+    }
+
+    .left2, .right2{
+        border-bottom-width: 130px;
+    }
+
+    .left2{
+        border-right: 130px solid darkslategrey;
+    }  
+            
+    .right2{
+        border-left: 130px solid darkslategrey;
+    }
+
+/*--------------------------------------*/

@@ -28,9 +28,8 @@
 }
 
 
-.rel-head{
+.rel-head, .normal-head{
     background: darkslategrey;
-    margin: 34px 0 0;
     width: 80%;
 
     h1{
@@ -44,25 +43,30 @@
     }
 }
 
+.rel-head{
+    margin: 34px 0 0;
+}
 
-/*-----------------media queries------------------*/
-
-
-@media (max-width:1320px){
-    
-    ul, .rel-head{
-        width: 75%;    
-    }
+.normal-head{
+    margin: 0;
 }
 
 
-
+ul, .rel-head{
+    @media (max-width:1320px){
+        width: 75%;  
+    }
+}
 @media (max-width:1060px){
 
     ul, .rel-head{
         width: 70%;    
     }
 }
+
+
+
+
 
 
 
